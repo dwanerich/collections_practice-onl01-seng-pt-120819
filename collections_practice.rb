@@ -38,6 +38,10 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  array.total
+end
+
 def add_s(array)
   array.map.with_index do |element, index|
     if index != 1
